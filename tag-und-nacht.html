@@ -186,7 +186,18 @@ margin-top: -20%;
 }
 .stars div:nth-child(6) {
 /* 20 */
-
+  left: 40%;
+  top: 10%;
+}
+  .stars div:nth-child(7) {
+    left: 80%;
+    top: 55%;
+  }
+  .WATER {
+    position: absolute;
+    background: repeating-radial-gradient(ellipse farthest-corner at center -400%,
+    #f5c30e 30%, #518eac 90%) repeat scroll 0 0 #518eac;
+  }
 
 /* 21 */
 transition: all l.ls ease;
@@ -272,6 +283,14 @@ background: #e9e5d5;
 <div id="switch">
 
 <!-- 28 -->
+<div id="circle"></div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
+<script>
+</script>
+$ ("#switch").click(function () {
+if ($("#fullpage").hasClass("night")) {
+    $("#fullpage").removeClass("night");
 
 
 /* 29 */
